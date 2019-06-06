@@ -1,0 +1,78 @@
+
+
+.contenedor{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Login{
+    background: rgba(0, 0, 0, 0.3);
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px 30px;
+    color: #fff;
+}
+.formulario{
+    flex-direction: column;
+    justify-content: center;
+}
+.boton{
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+}
+.boton:hover{
+    cursor: pointer;
+    background: #05668D;
+}
+.txtUser,
+.txtPassword
+{
+    border: none;
+    background: #0000004d;
+    color: #fff;
+    outline: none;
+    width:100%;
+    border-radius:25px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    height: 50px; 
+    line-height: 50px;
+    text-align: center
+}
+::placeholder{
+    color:rgba(255,255,255, 0.5);
+}
+
+ .loginTitle{
+    margin: 0;
+    padding: 0 0 20px;
+    font-size: 22px;
+}
+.LabelLogin{
+    font-weight: bold;
+}
+.LabelLoginFail{
+    color: red;
+}
+.title{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+}
+
+
+
+  
