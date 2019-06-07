@@ -60,7 +60,7 @@ class Home extends Component{
   
   render(){
     const {menu, loading,isAuthenticated} = this.state
-    return (
+     return (
       <div className="wrapper">
         <SideMenu menus={menu} handleLogOut={this.handleLogOut}/>
         {
